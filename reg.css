@@ -1,0 +1,332 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+}
+
+
+
+
+a { text-decoration: none; }
+
+.clearfix { overflow: auto }
+
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.top-bar {
+	width: 1000px;
+	background:#036;
+}
+
+.top-bar-links {
+	float: left;
+}
+
+.top-bar-links ul {
+	margin: 15px;
+	list-style: none;
+}
+
+.top-bar-links ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+
+.top-bar-links ul li:last-child {
+	border: 0;
+}
+
+.top-bar-links ul li a {
+	color: white;
+}
+
+.site-search {
+	padding: 5px 5px 5px 10px ; 
+	margin: 20px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+}
+
+.site-search input {
+	border: 0;
+	float: left;
+}
+
+.site-search button {
+	width: 18px;
+	height: 18px;
+	background: url(img/search (2).png);
+	border: 0;
+	float: right;
+}
+
+header .logo {
+	margin-top: 10px;
+	margin-left: 20px;
+	background:url(../img/0a16a9dc-448a-4729-864a-8d84e4c40f94.png);
+	float: left;
+	
+}
+
+header .socialmedia { 
+	float: right; 
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+header .socialmedia ul { 
+	list-style: none 
+}
+
+header .socialmedia ul li { 
+	display: inline 
+}
+
+header .socialmedia ul li a {
+	margin-left: 15px;
+	padding: 15px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+header .socialmedia ul li a:hover {
+	background:#0F0;
+}
+
+body
+{
+	margin: 0;
+	padding: 0; 
+	background-position:center;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"
+	
+}
+
+.loginbox{
+	width: 320px;
+	height: 700px;
+	background:#0C9;
+	color: #fff;
+	top: 100%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 35%;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: white;
+	font-size: 18px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffco1;
+	color: #000;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+}
+
+.loginbox a:hover{
+	color: #535045
+}
+
+body
+{
+	margin: 0;
+	padding: 0; 
+	background-position:center;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"
+	
+}
+
+.Registerbox1{
+	width: 340px;
+	height: 100px;
+	background:#2B2B2B;
+	color: #fff;
+	top: 100%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+
+
+.Registerbox{
+	width: 340px;
+	height: 500px;
+	background:#2B2B2B;
+	color: #fff;
+	top: 100%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatarr{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 35%;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	
+}
+.Registerbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	
+}
+
+.Registerbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Registerbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+}
+
+.Registerbox input[type="email"], input[type="email"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background:transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+.Registerbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: white;
+	font-size: 18px;
+}
+
+.Registerbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffco1;
+	color: #000;
+}
+
+.Registerbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+}
+
+.Registerbox a:hover{
+	color: #535045
+}
+
+
+.nav {
+	background-color:#333;
+	color:#FFF;
+	list-style:none;
+	text-align:center;
+	padding:20px 0 20px 0;
+}
+.nav > li {
+	display:inline-block;
+	padding:0 25px 0 25px;
+}
+
+.nav > li > a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+.nav > li > a:hover {
+	color:#999;
+	
+	
